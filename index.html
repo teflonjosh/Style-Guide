@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Style Guide </title>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/791px-CSS3_and_HTML5_logos_and_wordmarks.svg.png?20150111171555">
+<style>
+/* PAGE STRUCTURE */
+body {
+  background-color: #f0f1f1;
+  color: #210802;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  width: 100%;
+  margin: 0;}
+table {
+  width: auto;
+  text-align: left;}
+th, td {
+  padding: 7px 7px 7px 7px;}
+th {
+  border-bottom: 2px solid #1111;
+  border-top: 1px solid rgb(4, 11, 93)}
+tr.even{
+  background-color:#dce0e4;}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }  
+Footer {
+  text-align: center;
+  background-color:rgb(55, 122, 145);
+  color: #f4f4f4;
+  max-width: auto;}  
+  .footer {
+  color:#f4f4f4}
+  .nav ul li {
+    display: inline-block;}
+#even {
+  display: block;
+  margin-left: 0px;
+  margin-right: 200px }
+/* Headings */
+.H1 { 
+    font-size: 36px;
+    font-weight: bold;}
+.H2 { 
+    font-size: 24px;
+    font-weight: bold;}
+.H3 {
+    font-size: 21px;
+    font-weight: bold;}  
+h3 {
+    font-style: italic;
+    text-align: center;
+    color: #1d0f0f; 
+    transition: transform .7s ease-in-out;}
+  h3:hover {
+    color: #370404;   
+    text-decoration: overline;
+    transform: rotate(180deg);}
+  H2 {
+  text-decoration: underline;}
+      H2:hover {
+      text-transform: uppercase;}
+  /* TEXT DECORATIONS */
+  hr {
+    color:#dce0e4;}  
+  a:hover {
+    font-size: 120%;}  
+
+  hr {
+    color:#dce0e4;}  
+  a:hover {
+    font-size: 120%;}  
+  .att {
+    font-size: xx-small;
+    font-style: italic;}  
+  img {
+  transition: transform .7s ease-in-out;}
+    img:hover {
+    transform: rotate(180deg)}
+/* FONTS AND COLORS */
+.cool-blue {
+    color: #2d5dcc; }
+.pink {
+    color: #d957d9; }
+.purple {
+    color: #9648ab; }
+.red  {
+    color:#da072c; }
+.candy {
+    color:#ff0800; }
+.gold {
+    color: #FFD700;}
+.yellow {
+    color: #FFFF00 }
+.salmon {
+    color: 	#FA8072}
+.lime {
+    color: #00FF00 }
+.springGreen {
+    color: #00FF7F}
+.green {
+    color: #008000}
+.olive {
+    color: #808000}
+.teal {
+    color: #008080}
+.turquoise {
+    color: #40E0D0}
+.blue {
+    color:#0000FF }
+.maroon {
+    color: #800000}
+.indigo {
+    color: #4B0082}
+.khaki {
+    color: #F0E68C }
+.gray {
+    color: #808080 }
+.darkSlate {
+    color: #2F4F4F }
+.black {
+    color: #000000}
+.serif {
+  font-family: serif; }
+.sanSerif {
+    font-family: sans-serif; }
+.mono {
+    font-family:monospace;}
+.fantasy {
+    font-family: fantasy;}
+.cursive {
+    font-family:cursive;}
+.guide {
+    text-decoration: line-through;}
+      .guide:hover {
+      text-decoration: none; }
+/* BUTTON */
+Button {
+	box-shadow: 5px #346d80;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ab6d6d;
+	border-radius:10px;
+	color:#03191f;
+    padding:5px 15px;}
+  Button:hover {
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color:#bab1ba;}   
+/* CSS FOR SCRIPT */ 
+.nav-header {
+  background-color:rgb(55, 122, 145);
+  text-align: center;
+  position: sticky;
+  max-width: auto;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: background-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;}
+.nav-header.nav-header-scrolled {
+  background-color: #f0f1f1;
+  color:black;}
+  .nav-header-scrolled:hover {
+    color:rgb(157, 157, 17);} 
+.nav {
+  align-items: center;
+  height: 65px;
+  width: auto;
+  padding: 10px 20px;}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  color: white;}
+.nav-item {
+  display: inline-block;
+  margin-right: 30px;}
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;}
+.nav-header.nav-header-scrolled .nav-item a {
+  color: black; }
+.nav-header.nav-header-scrolled .nav-item a:hover {
+    color:rgb(55, 122, 145);
+  text-decoration: underline;} 
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;}
+.content {
+  position: relative;
+  background-color:rgb(55, 122, 145);
+  color: white;
+  width: auto;}
+            </style>      
+  </style>      
+</head>
+<!--HEADER -->
+<section id="land">
+  <header class="nav-header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="https://teflonjosh.github.io/Resource-Guide/">Home</a></li>
+        <li class="nav-item"><a href="#colors">Colors </a></li>
+        <li class="nav-item"><a href="#fonts">Font Famailies</a></li>
+        <li class="nav-item"><a href="#styles"> Font Styles</a></li>
+        <li class="nav-item"><a href="#headings"> Headings</a></li>
+      </ul>
+    </nav>
+  </header>
+<body>
+<!-- TOP CONTEN IN HEADER COLOR -->
+<div class="content">
+<br>
+    <div class=image>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/85px-CSS3_logo_and_wordmark.svg.png" loading="lazy"/>
+    </div>
+        <div class="att">
+    <a href="https://commons.wikimedia.org/wiki/File:CSS.3.svg"target="_blank">Nikotaf</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>, via Wikimedia Commons
+      <br>
+        </div>
+        <p>Thanks for visiting! This is a Style Guide for Web Developmet with colors and fonts that can be referenced.</p>
+       <br>
+    </div> <!-- END DIV WHERE HEADER CHANGES COLOR-->
+  <section id="colors">
+<h3>Colors</h3>
+   <div class="fade-in">
+        <p class="pink">Pink #d957d9</p>
+        <p class="purple">Purple #9648ab</p>
+        <p class="indigo">Indigo #4B0082</p>
+    </div>
+   <div class="fade-in">
+        <div id="even">
+            <p class="red">Red #da072c</p>
+            <p class="candy">Candy #ff0800</p>
+            <p class="maroon">Maroon #800000</p>
+            <p class="salmon">Salmon #FA8072</p>
+        </div>
+    </div>
+   <div class="fade-in">
+        <p class="olive">Olive #808000</p>
+        <p class="gold">Gold #FFD700</p>
+        <p class="yellow">Yellow #FFFF00</p>
+        <p class="khaki">Khaki #F0E68C</p>
+   </div>
+    <div class="fade-in">
+        <div id="even">
+            <p class="green">Green  #008000</p>
+            <p class="lime">Lime #00FF00</p>
+            <p class="springGreen">Spring Green #00FF7F</p>
+     </div>
+   <div class="fade-in">
+        <p class="blue">Blue #0000FF</p>
+        <p class="cool-blue">Cool Blue #2d5dcc</p>
+        <p class="teal">Teal #008080</p>
+        <p class="turquoise">Turquoise #40E0D0</p>
+   </div>
+    <div class="fade-in">
+        <div id="even">
+            <p class="gray">Gray #808080</p>
+            <p class="darkSlate">Dark Slate Gray #2F4F4F</p>
+            <p class="black">Black #000000</p>
+        </div>
+      </div>
+    <br>
+    <hr>
+</section>
+
+<label><h3>Color Value Generator</h3></label>
+  <section class="slide from-left">  
+    <section id='color-form'>
+        <form name="myform" action="https://echo.zuplo.io/" method="POST">
+            <p> Can't find the color you need above? That's alright!</p>
+                <p> This tool allows you to find the color or shade you want and generate the HEX value, which can then be specified in CSS!</p>
+                Select a color here
+            <input type="color" name="color">
+                <br>
+            <p>And then <input type="button" name="button" value="Generate Value!"
+        onClick="testResults(this.form)"></p>
+     </form>
+  </section> 
+    <hr>
+        <script>
+            // Script for Color Function 
+            function testResults (form) {
+                let formData = new FormData(form);
+                let object = {};
+                formData.forEach(function(value, key){
+                object[key] = value;
+                });
+            var json = JSON.stringify(object);
+            alert(JSON.stringify(Object.fromEntries(formData)));
+                }
+        </script>
+<section id="fonts">
+    <h3> Font Famailies</h3>
+        <section class="slide from-left">
+            <p>In web design, five standard font families are easily readable by most browsers. These are:</p>
+                <div id="even">
+                    <p class="serif">Serif</p>
+                    <p class="sanSerif">Sans Serif</p>
+                    <p class="mono">Monospace</p>
+                    <p><span class="fantasy">Fantasy</span>
+                    <p class="cursive">Cursive</p>
+                </div>
+        </section>
+    </section>
+<hr>
+
+<section id="styles">
+    <h3>Font Styles</h3>
+    <div class="fade-in">
+            <p> There are thousands of font styles within font families. Some commonly used examples of these are: </p>
+                <p class="guide">In Sans-Serif Font:</p>
+                <p style="font-family: Arial, sans-serif;">Arial</p>
+                <p style="font-family: Helvetica, sans-serif;">Helvetica</p>
+                <p style="font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;">Avantgarde</p>
+                <p style="font-family: Noto Sans, sans-serif;">Noto Sans</p>   
+                <p style="font-family: Optima, sans-serif;">Optima</p>
+              </div>
+            <div class="fade-in">
+            <div id="even">  
+                <p class="guide">In Serif Font:</p>
+                         <p style="font-family: Times New Roman, serif;">Times New Roman</p>
+                         <p style="font-family: Didot, serif;">Didot</p>
+                         <p style="font-family: Bookman, URW Bookman L, serif;">Bookman</p>         
+                         <p style="font-family: American Typewriter, serif;">American Typewriter</p>
+                         <p style="font-family: New Century Schoolbook, TeX Gyre Schola, serif;">New Century Schoolbook</p>
+                     </div> 
+                    </div>
+                <div class="fade-in">
+            <p class="guide">In Monospace Font:</p>
+                <p style="font-family:Andale Mono, monospace">Andale</p>
+                <p style="font-family: Arial, sans-serif;">Arial</p>
+                <p style="font-family:Courier New, monospacee">Courier New</p>
+                <p style="font-family:DejaVu Sans Mono, monospace">DejaVu Sans Mono</p>
+                <p style="font-family:OCR A Std, monospace">OCR A Std</p>
+              </div>
+            <div class="fade-in">
+            <div id="even">  
+                <p class="guide">In Cursive Font:</p>
+                    <p style="font-family: Bradley Hand, cursive;">Bradley Hand</p>
+                    <p style="font-family:Comic Sans MS, Comic Sans">Comic Sans</p>
+                    <p style="font-family: Snell Roundhand, cursive;">Snell Roundhand</p>
+                    <p style="font-family: URW Chancery L;">URW Chancery L</p>
+                </div>
+              </div>
+          </section>
+        <hr>
+<section id="headings">
+  <h3>Headings</h3>
+    <div class="fade-in">
+       <div id="even">    
+        <p class="H1">H1 Heading Size</p>
+        <p class="H2">H2 Heading Size</p>
+        <p class="H3">H3 Heading Size</p>
+        <h4>H4 Heading Size</h4>
+        <h5>H5 Heading Size</h5>
+        <H6>H6 Heading Size</h6>
+       </div>
+      <p>General Paragraph Text Size</p>
+      </div>
+</section>  
+  <script>
+    // Script for HEADER // 
+    const navHeader = document.querySelector('.nav-header');
+    const content = document.querySelector('.content');
+    
+    const options = {
+      rootMargin: `-200px 0px 0px 0px`,
+    };
+    
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          navHeader.classList.remove('nav-header-scrolled');
+        } else {
+          navHeader.classList.add('nav-header-scrolled');
+        }
+      });
+    }, options);
+    observer.observe(content);
+   </script>
+  
+<script>
+// SCRIPT FOR FADE 
+const fadeIns = document.querySelectorAll('.fade-in');
+
+const appearOptions = {
+  threshold: 0.7,
+};
+
+const appearOnScroll = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.intersectionRatio >= appearOptions.threshold) {
+      entry.target.style.opacity = .9;
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+}, appearOptions);
+
+fadeIns.forEach((fadein) => {
+  appearOnScroll.observe(fadein);
+});
+</script>
+
+  <hr>
+    <footer>
+      <div class="nav">
+          <ul id="link">
+            <li>|| <a class="footer" href="#land">Top of Page</a> |</li>
+            <li> Images from <a class="footer" a href="https://commons.wikimedia.org/wiki/Main_Page "target="_blank">Wikimedia Commons</a> and sourced in page | </li>
+            <li><a class="footer" a href="mailto:josh.michael.hill@gmail.com">Contact Me!</a> ||</li>
+          </ul>
+      </div>		
+  <div class="att">
+    <p>*Tab Icon from <a href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg"target="_blank">daPhyre</a>, <a href="https://creativecommons.org/licenses/by/3.0"target="_blank">CC BY 3.0</a>, via Wikimedia Commons</p>
+      <br>
+      </div>
+    </footer>
+  </body>
+</html>
