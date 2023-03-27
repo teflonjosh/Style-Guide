@@ -204,7 +204,7 @@ Button {
       <ul class="nav-list">
         <li class="nav-item"><a href="https://teflonjosh.github.io/Resource-Guide-Project/">Home</a></li>
         <li class="nav-item"><a href="#colors">Colors </a></li>
-        <li class="nav-item"><a href="#fonts">Font Famailies</a></li>
+        <li class="nav-item"><a href="#fonts">Font Families</a></li>
         <li class="nav-item"><a href="#styles"> Font Styles</a></li>
         <li class="nav-item"><a href="#headings"> Headings</a></li>
       </ul>
@@ -271,29 +271,14 @@ Button {
 <label><h3>Color Value Generator</h3></label>
   <section class="slide from-left">  
     <section id='color-form'>
-        <form name="myform" action="https://echo.zuplo.io/" method="POST">
             <p> Can't find the color you need above? That's alright!</p>
-                <p> This tool allows you to find the color or shade you want and generate the HEX value, which can then be specified in CSS!</p>
-                Select a color here
+                <p> This tool allows you to find the color or shade you want and review the HEX or RGB value, which can then be specified in CSS!</p>
+                Select a color here!
             <input type="color" name="color">
-                <br>
-            <p>And then <input type="button" name="button" value="Generate Value!"
-        onClick="testResults(this.form)"></p>
+          <br>
      </form>
-  </section> 
-    <hr>
-        <script>
-            // Script for Color Function 
-            function testResults (form) {
-                let formData = new FormData(form);
-                let object = {};
-                formData.forEach(function(value, key){
-                object[key] = value;
-                });
-            var json = JSON.stringify(object);
-            alert(JSON.stringify(Object.fromEntries(formData)));
-                }
-        </script>
+  </section>
+<hr>
 <section id="fonts">
     <h3> Font Famailies</h3>
         <section class="slide from-left">
