@@ -1,5 +1,5 @@
 ## Development Portfolio
-- Originally a [codecademy](www.codecademy.com) exercise. 
+- Originally a [codecademy](https://www.codecademy.com/) exercise. 
 
 ## Acknowledgements
 
